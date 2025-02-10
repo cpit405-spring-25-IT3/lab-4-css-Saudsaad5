@@ -4,11 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab-4.css">
     <title>Lab 4</title>
 </head>
 
 <body>
+    <h1>Great Auto Parts - Order Form</h1>
+    <div id="container">
+    <form>
+        <label class="Label" for="Fname">First Name:</label class="Label">
+        <input class="inp" type="text" id="Fname" placeholder="Enter your first name">
 
+        <label class="Label" for="Lname">Last Name:</label>
+        <input class="inp" type="text" id="Lname" placeholder="Enter your last name">
+
+        <label class="Label" for="Email">Email:</label>
+        <input class="inp" type="email" id="Email" placeholder="Enter your email address">
+
+        <label class="Label" for="Pnumber">Phone Number:</label>
+        <input class="inp" type="phone" id="Pnumber" placeholder="Enter your phone number">
+
+        <label class="Label" for="Make">Make:</label>
+        <select id="Make">
+            <option value="Make">Make</option>
+            <option value="ACURA">ACURA</option>
+            <option value="ASTON MARTIN">ASTON MARTIN</option>
+            <option value="AUDI">AUDI</option>
+            <option value="BENTLEY">BENTLEY</option>
+            <option value="BMW">BMW</option>
+            <option value="BUICK">BUICK</option>
+            <option value="CADILLAC">CADILLAC</option>
+            <option value="CHEVROLET">CHEVROLET</option>
+            <option value="CHRYSLER">CHRYSLER</option>
+            <option value="DODGE">DODGE</option>
+            <option value="FERRARI">FERRARI</option>
+            <option value="FORD">FORD</option>
+            <option value="GMC">GMC</option>
+            <option value="HONDA">HONDA</option>
+        </select>
+
+        <label class="Label" for="Model">Model:</label>
+        <input class="inp" type="text" id="Model" placeholder="Model">
+
+        <label class="Label" for="Year">Year:</label>
+        <input class="inp" type="number" id="Year" min="1980" max="2025" placeholder="Year">
+
+        <label class="Label" for="Date">Date:</label>
+        <input class="inp" type="Date" id="Date">
+
+        <label class="Part" for="Part">Part:</label>
+        <input class="inp" type="text" id="Part" placeholder="Enter the part you need">
+
+        <label class="Label" for="Quantity">Quantity</label>
+        <input class="inp" type="number" id="Quantity" value="1" min="0" max="99">
+
+        <label class="Label" for="Comment">Comment:</label>
+        <textarea id="Comment" rows="5" cols="20"></textarea>
+
+        <input id="inpBtn" type="Submit">
+    </form>
+</div>
 </body>
 
 </html>

@@ -1,0 +1,87 @@
+body{
+    padding: 20px;
+    background-color: lightgray;
+}
+
+h1{
+    color: #464646;
+    text-align: center;
+}
+#container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+label{
+    font-weight: 500;
+    color: #363131;
+    margin-bottom: 5px;
+}
+
+input, select, textarea{
+    border: 2px solid #3d3d3d;
+    box-shadow: 2px 2px 1px #363131;
+    border-radius: 5px;
+    padding: 14px;
+}
+
+input, select, textarea:hover{
+    cursor: pointer;
+}
+
+input, select, textarea:focus{
+    outline: none;
+    border-color: #726d6d;
+}
+
+input[type="date"], input[type="number"] {
+    box-sizing: border-box;
+}
+
+select{
+    background-color: #fff;
+}
+
+textarea{
+    min-height: 100px;
+}
+
+@media(max-width:600px){
+    form{
+        grid-template-columns: 1fr;
+    }
+    
+}
+/*
+.Label{
+
+}
+.inp{
+    width: 75%;
+    height: 27px;
+    box-sizing: border-box;
+}
+
+#inpBtn{
+    width: 75%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#inpBtn:hover{
+    background-color: gray;
+}
+
+#Make{
+    width: 75%;
+    height: 27px;
+}
+*/
