@@ -22,7 +22,7 @@
         <input class="inp" type="email" id="Email" placeholder="Enter your email address">
 
         <label class="Label" for="Pnumber">Phone Number:</label>
-        <input class="inp" type="phone" id="Pnumber" placeholder="Enter your phone number">
+        <input class="inp" type="tel" id="Pnumber" placeholder="Enter your phone number">
 
         <label class="Label" for="Make">Make:</label>
         <select id="Make">
@@ -44,7 +44,11 @@
         </select>
 
         <label class="Label" for="Model">Model:</label>
-        <input class="inp" type="text" id="Model" placeholder="Model">
+        <select id="Model">
+            <option value="Model">Model</option>
+            <option value="CAMRY">CAMRY</option>
+            <option value="COROLA">COROLA</option>
+        </select>
 
         <label class="Label" for="Year">Year:</label>
         <input class="inp" type="number" id="Year" min="1980" max="2025" placeholder="Year">
